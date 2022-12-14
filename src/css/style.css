@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #3c3c3c;
+    background-image: url(../../assets/images/dot.png);
+    background-size: 50px;
+    background-repeat: repeat;
+    
+}
+
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-box {
+    width: 275px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0px 0px 7px #35d14a;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+label {
+    display: block;
+    padding: 20px;
+    
+}
+
+.button, .titulo, .login {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.titulo {
+    background-color: #35d14a;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#butt{
+
+    background-color: #35d14a;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0;
+    font-weight: bold;
+}
+
+#butt:hover{
+
+    background-color: #1e4e25;
+    color: #fff
+    
+}
+
+.inp {
+    outline: none;
+}
+
